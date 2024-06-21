@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        <div class="score">
+            <h1 id="home">0</h1>
+            <h1 id="guest">0</h1>
+        </div>
+        <div class="plus">
+            <div class="plhome">
+                <h5 onclick="update('home',1)">+1</h5>
+                <h5 onclick="update('home',2)">+2</h5>
+                <h5 onclick="update('home',3)">+3</h5>
+            </div>
+            <div class="plguest">
+                <h5 onclick="update('guest',1)">+1</h5>
+                <h5 onclick="update('guest',2)">+2</h5>
+                <h5 onclick="update('guest',3)">+3</h5>
+            </div>
+        </div>
+        <div class="new">
+            <button id="new-btn" onclick="newg()">ADD A NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
